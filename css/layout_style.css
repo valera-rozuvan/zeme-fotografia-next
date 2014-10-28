@@ -1,0 +1,48 @@
+body, .header-container, .top-navigation, .bottom-navigation,
+.footer-container {
+    background-color: #808185;
+}
+
+.photo-container {
+    background-color: #ffffff;
+}
+
+.information-container {
+    background-color: #4b4b4b;
+}
+
+.social-networks {
+    padding: 10px 5px;
+    height: 30px;
+}
+
+.social-networks a, .social-networks a div {
+    width: 30px;
+    height: 30px;
+
+    display: inline;
+    float: right;
+    clear: none;
+
+    background-repeat: no-repeat;
+}
+
+a div.facebook {
+    background-image: url(../img/facebook_icon.png);
+}
+
+a div.google-plus {
+    background-image: url(../img/google_icon.png);
+}
+
+a div.instagram {
+    background-image: url(../img/instagram_icon.png);
+}
+
+a div.twitter {
+    background-image: url(../img/twitter_icon.png);
+}
+
+a div.vkontakte {
+    background-image: url(../img/vkontakte_icon.png);
+}

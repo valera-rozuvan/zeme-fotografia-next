@@ -1,0 +1,89 @@
+.photo {
+    margin: 35px auto 35px auto;
+}
+
+/* ------------------------------------- */
+/* For vertical layouts.
+/* ------------------------------------- */
+@media screen and (min-width: 1px) and (max-width: 399px) {
+    .photo {
+        background-image: url(../img/photo/1/kolokolnja-na-kontraktovoj-ploshhe__294x221.jpg);
+        width: 294px;
+        height: 221px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 532px) {
+    .photo {
+        background-image: url(../img/photo/1/kolokolnja-na-kontraktovoj-ploshhe__368x276.jpg);
+        width: 368px;
+        height: 276px;
+    }
+}
+
+@media screen and (min-width: 533px) and (max-width: 567px) {
+    .photo {
+        background-image: url(../img/photo/1/kolokolnja-na-kontraktovoj-ploshhe__490x368.jpg);
+        width: 490px;
+        height: 368px;
+    }
+}
+
+/* ------------------------------------- */
+/* For horizontal layouts.
+/* ------------------------------------- */
+@media screen and (min-width: 568px) and (max-width: 599px) {
+    .photo {
+        background-image: url(../img/photo/1/kolokolnja-na-kontraktovoj-ploshhe__378x285.jpg);
+        width: 378px;
+        height: 285px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 719px) {
+    .photo {
+        background-image: url(../img/photo/1/kolokolnja-na-kontraktovoj-ploshhe__400x300.jpg);
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 799px) {
+    .photo {
+        background-image: url(../img/photo/1/kolokolnja-na-kontraktovoj-ploshhe__480x360.jpg);
+        width: 480px;
+        height: 360px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 959px) {
+    .photo {
+        background-image: url(../img/photo/1/kolokolnja-na-kontraktovoj-ploshhe__534x401.jpg);
+        width: 534px;
+        height: 401px;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1023px) {
+    .photo {
+        background-image: url(../img/photo/1/kolokolnja-na-kontraktovoj-ploshhe__640x480.jpg);
+        width: 640px;
+        height: 480px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .photo {
+        background-image: url(../img/photo/1/kolokolnja-na-kontraktovoj-ploshhe__682x512.jpg);
+        width: 682px;
+        height: 512px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 4096px) {
+    .photo {
+        background-image: url(../img/photo/1/kolokolnja-na-kontraktovoj-ploshhe__854x641.jpg);
+        width: 854px;
+        height: 641px;
+    }
+}

@@ -1,0 +1,47 @@
+.site-title, .top-navigation .previous, .top-navigation .next,
+.bottom-navigation .previous, .bottom-navigation .next, .information-container,
+.photo-container, .copyright {
+    display: inline;
+}
+
+.bottom-navigation, .top-navigation {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.information {
+    padding: 10px;
+}
+
+.header-container, .footer-container, .copyright {
+    clear: both;
+}
+
+.site-title, .top-navigation, .top-navigation .previous, .top-navigation .next,
+.bottom-navigation .previous, .bottom-navigation .next {
+    clear: none;
+}
+
+.information-container, .photo-container {
+    clear: right;
+}
+
+.site-title, .top-navigation .previous, .top-navigation .next, .photo-container,
+.information-container, .copyright {
+    float: left;
+}
+
+.top-navigation, .bottom-navigation .previous, .bottom-navigation .next {
+    float: right;
+}
+
+.information-container, .photo-container {
+    height: auto;
+}
+
+.copyright {
+    width: 100%;
+}

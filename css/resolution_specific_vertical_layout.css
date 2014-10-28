@@ -1,0 +1,72 @@
+/*
+ * Common styling for all vertical layouts.
+ */
+@media screen and (min-width: 1px) and (max-width: 567px) {
+    .header-container, .site-title, .bottom-navigation, .footer-container {
+        height: 60px;
+    }
+
+    .bottom-navigation {
+        display: block;
+    }
+
+    .information-container, .photo-container {
+        float: left;
+        clear: both;
+    }
+}
+
+
+/*
+ * Specific styles for individual width ranges.
+ *
+ * Ideally, the "minimal-minimal" width is 320 pixels, but we will put 1 pixel
+ * just in case ; ) */
+@media screen and (min-width: 1px) and (max-width: 359px) {
+    .container, .header-container, .site-title, .bottom-navigation,
+    .information-container, .photo-container, .footer-container {
+        width: 310px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 383px) {
+    .container, .header-container, .site-title, .bottom-navigation,
+    .information-container, .photo-container, .footer-container {
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 384px) and (max-width: 399px) {
+    .container, .header-container, .site-title, .bottom-navigation,
+    .information-container, .photo-container, .footer-container {
+        width: 374px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 423px) {
+    .container, .header-container, .site-title, .bottom-navigation,
+    .information-container, .photo-container, .footer-container {
+        width: 390px;
+    }
+}
+
+@media screen and (min-width: 424px) and (max-width: 479px) {
+.container, .header-container, .site-title, .bottom-navigation,
+    .information-container, .photo-container, .footer-container {
+        width: 414px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 532px) {
+    .container, .header-container, .site-title, .bottom-navigation,
+    .information-container, .photo-container, .footer-container {
+        width: 470px;
+    }
+}
+
+@media screen and (min-width: 533px) and (max-width: 567px) {
+    .container, .header-container, .site-title, .bottom-navigation,
+    .information-container, .photo-container, .footer-container {
+        width: 523px;
+    }
+}

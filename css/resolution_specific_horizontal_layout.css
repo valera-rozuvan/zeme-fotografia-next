@@ -1,0 +1,184 @@
+/*
+ * Styles common to all horizontal layouts.
+ */
+@media screen and (min-width: 568px) and (max-width: 4096px) {
+    .header-container, .footer-container, .site-title, .top-navigation {
+        height: 60px;
+    }
+
+    .top-navigation {
+        display: inline;
+    }
+}
+
+
+/*
+ * Specific styles for individual width ranges.
+ */
+@media screen and (min-width: 568px) and (max-width: 599px) {
+    .container, .header-container, .footer-container {
+        width: 558px;
+    }
+
+    .information-container {
+        width: 168px;
+    }
+
+    .photo-container {
+        width: 390px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 639px) {
+    .container, .header-container, .footer-container {
+        width: 590px;
+    }
+
+    .information-container {
+        width: 176px;
+    }
+
+    .photo-container {
+        width: 414px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 719px) {
+    .container, .header-container, .footer-container {
+        width: 630px;
+    }
+
+    .information-container {
+        width: 190px;
+    }
+
+    .photo-container {
+        width: 440px;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 752px) {
+    .container, .header-container, .footer-container {
+        width: 710px;
+    }
+
+    .information-container {
+        width: 210px;
+    }
+
+    .photo-container {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 753px) and (max-width: 767px) {
+    .container, .header-container, .footer-container {
+        width: 743px;
+    }
+
+    .information-container {
+        width: 221px;
+    }
+
+    .photo-container {
+        width: 522px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 799px) {
+    .container, .header-container, .footer-container {
+        width: 758px;
+    }
+
+    .information-container {
+        width: 226px;
+    }
+
+    .photo-container {
+        width: 532px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 852px) {
+    .container, .header-container, .footer-container {
+        width: 790px;
+    }
+
+    .information-container {
+        width: 250px;
+    }
+
+    .photo-container {
+        width: 540px;
+    }
+}
+
+@media screen and (min-width: 853px) and (max-width: 959px) {
+    .container, .header-container, .footer-container {
+        width: 843px;
+    }
+
+    .information-container {
+        width: 300px;
+    }
+
+    .photo-container {
+        width: 543px;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 965px) {
+    .container, .header-container, .footer-container {
+        width: 950px;
+    }
+
+    .information-container {
+        width: 290px;
+    }
+
+    .photo-container {
+        width: 660px;
+    }
+}
+
+@media screen and (min-width: 966px) and (max-width: 1023px) {
+    .container, .header-container, .footer-container {
+        width: 956px;
+    }
+
+    .information-container {
+        width: 292px;
+    }
+
+    .photo-container {
+        width: 664px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .container, .header-container, .footer-container {
+        width: 1014px;
+    }
+
+    .information-container {
+        width: 312px;
+    }
+
+    .photo-container {
+        width: 702px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 4096px) {
+    .container, .header-container, .footer-container {
+        width: 1270px;
+    }
+
+    .information-container {
+        width: 396px;
+    }
+
+    .photo-container {
+        width: 874px;
+    }
+}

@@ -1,0 +1,89 @@
+.photo {
+    margin: 35px auto 35px auto;
+}
+
+/* ------------------------------------- */
+/* For vertical layouts.
+/* ------------------------------------- */
+@media screen and (min-width: 1px) and (max-width: 399px) {
+    .photo {
+        background-image: url(../img/photo/01/cars-by-building/cars-by-building__294x222.png);
+        width: 294px;
+        height: 222px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 532px) {
+    .photo {
+        background-image: url(../img/photo/01/cars-by-building/cars-by-building__368x278.png);
+        width: 368px;
+        height: 278px;
+    }
+}
+
+@media screen and (min-width: 533px) and (max-width: 567px) {
+    .photo {
+        background-image: url(../img/photo/01/cars-by-building/cars-by-building__490x370.png);
+        width: 490px;
+        height: 370px;
+    }
+}
+
+/* ------------------------------------- */
+/* For horizontal layouts.
+/* ------------------------------------- */
+@media screen and (min-width: 568px) and (max-width: 599px) {
+    .photo {
+        background-image: url(../img/photo/01/cars-by-building/cars-by-building__378x285.png);
+        width: 378px;
+        height: 285px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 719px) {
+    .photo {
+        background-image: url(../img/photo/01/cars-by-building/cars-by-building__400x302.png);
+        width: 400px;
+        height: 302px;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 799px) {
+    .photo {
+        background-image: url(../img/photo/01/cars-by-building/cars-by-building__480x362.png);
+        width: 480px;
+        height: 362px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 959px) {
+    .photo {
+        background-image: url(../img/photo/01/cars-by-building/cars-by-building__534x403.png);
+        width: 534px;
+        height: 403px;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1023px) {
+    .photo {
+        background-image: url(../img/photo/01/cars-by-building/cars-by-building__640x483.png);
+        width: 640px;
+        height: 483px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .photo {
+        background-image: url(../img/photo/01/cars-by-building/cars-by-building__682x515.png);
+        width: 682px;
+        height: 515px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 4096px) {
+    .photo {
+        background-image: url(../img/photo/01/cars-by-building/cars-by-building__854x645.png);
+        width: 854px;
+        height: 645px;
+    }
+}
