@@ -15,3 +15,10 @@ div {
     outline: none;
     outline-width: 0;
 }
+
+a.photo {
+    display: block;
+    cursor: pointer;
+    border:0;
+    outline:none;
+}
